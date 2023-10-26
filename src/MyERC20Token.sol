@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
+import {VRFv2Consumer} from "./VRFv2Consumer.sol";
+
 interface tokenRecipient {
     function receiveApproval(
         address _from,
